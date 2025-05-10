@@ -1,4 +1,3 @@
-```markdown
 Podczas konfiguracji HTTPS dla Qdrant w środowisku lokalnym napotkaliśmy kilka problemów i ostatecznie znaleźliśmy proste rozwiązanie:
 
 ## Problemy z HTTPS na lokalnym środowisku
@@ -19,4 +18,4 @@ Ostatecznie zdecydowaliśmy się na znacznie prostsze podejście dla środowiska
 *   **Zachowanie pełnej konfiguracji HTTPS dla produkcji** - Dla środowiska produkcyjnego zachowaliśmy Caddy z automatycznym HTTPS i Basic Auth jako dodatkową warstwę zabezpieczeń.
 
 To rozwiązanie znacznie uprościło konfigurację lokalną, eliminując problemy z HTTPS, jednocześnie zachowując pełne bezpieczeństwo w środowisku produkcyjnym.
-```
+
